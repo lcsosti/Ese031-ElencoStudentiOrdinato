@@ -38,6 +38,10 @@ int main(int argc, char** argv) {
 }
 SeleCognome(elenco,N) //Ordinatore Elenco
 
+//Stampa
+for(i=0;i<N;i++){
+        printf("%s; %s; %d; %s\n", elenco[i].nome,elenco[i].cognome,elenco[i].eta,elenco[i].classe);
+    }
 // Definisci la funzione di ordinamento
 void SeleCognome(studente v[],int n){
     int i,minore,j;
